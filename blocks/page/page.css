@@ -1,7 +1,7 @@
 .page {
   margin: auto;
   /* this ensures that all content is centered on screens wider than 1600px */
-  font-family: 'Inter', 'Arial', sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   background-color: #2a2c2f;
   color: white;
   -moz-osx-font-smoothing: grayscale;
