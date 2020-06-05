@@ -4,7 +4,7 @@
   line-height: 1.17;
   align-self: flex-end;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 .header__title:nth-child(2) {
