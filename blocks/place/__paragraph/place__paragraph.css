@@ -1,6 +1,6 @@
 .place__paragraph {
   font-size: 18px;
-  line-height: 30px;
+  line-height: 1.67;
   font-weight: normal;
   margin: 0;
   padding-bottom: 24px;
@@ -14,7 +14,7 @@
   .place__paragraph {
     max-width: 352px;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1.62;
     font-weight: normal;
     padding-bottom: 24px;
   }

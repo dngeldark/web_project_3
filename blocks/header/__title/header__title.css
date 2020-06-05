@@ -1,7 +1,7 @@
 .header__title {
   margin: 0;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.17;
   align-self: flex-end;
   text-rendering: optimizeLegibility;
 }
@@ -13,6 +13,6 @@
 @media screen and (max-width: 425px) {
   .header__title {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.33;
   }
 }
