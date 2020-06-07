@@ -5,11 +5,10 @@
 .footer {
   max-width: 1184px;
   margin: auto;
-  padding-bottom: 24px;
   display: flex;
   justify-content: space-between;
   max-width: calc(100% - 96px);
-  padding-top: 92px;
+  padding: 92px 0 24px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -23,6 +22,6 @@
   .footer {
     flex-direction: column;
     max-width: calc(100% - 32px);
-    padding: 64px 0 14px;
+    padding-top: 64px;
   }
 }
