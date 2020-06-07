@@ -1,18 +1,25 @@
-.header__title {
+.header__lang-link {
   margin: 0;
+  color: white;
+  text-decoration: none;
   font-size: 24px;
   line-height: 1.17;
   align-self: flex-end;
   font-style: normal;
   font-weight: 400;
+  transition: 0.3s;
 }
 
-.header__title:nth-child(2) {
-  padding-right: 16px;
+.header__lang-link:hover {
+  opacity: 0.5;
+}
+
+.header__lang-link:first-child {
+  padding-left: 16px;
 }
 
 @media screen and (max-width: 425px) {
-  .header__title {
+  .header__lang-link {
     font-size: 18px;
     line-height: 1.33;
   }

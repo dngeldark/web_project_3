@@ -2,3 +2,41 @@
   text-decoration: none;
   color: white;
 }
+
+.cover__overlay {
+  text-decoration: none;
+  color: white;
+  min-height: 62.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url('../../../images/cover/cover-route-66.jpg');
+  background-position: center;
+  background-size: cover;
+  z-index: 1;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__overlay {
+    min-height: 740px;
+  }
+}
+
+.cover__overlay::before {
+  content: '';
+  background: black;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+.cover__overlay:hover::before {
+  opacity: 0.8;
+}
