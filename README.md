@@ -16,5 +16,5 @@ This is a project about traveling across the US. In this project I practiced ada
 
 **Updates**
 
-Fix breakpoint
+Fix breakpoints
 Add bigger screen media query
